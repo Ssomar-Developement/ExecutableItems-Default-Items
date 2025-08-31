@@ -218,56 +218,53 @@ activators:
       run minecraft:particle explosion ~ ~ ~ .1 .1 .1 0 1 <+> minecraft:execute at
       %around_target_uuid% run minecraft:playsound minecraft:entity.zombie.attack_wooden_door
       ambient @a[distance=..10] <+> minecraft:execute at %around_target_uuid% run
-      minecraft:particle minecraft:dust{color:[1.0,0.0,0.0],scale:2.0} ~ ~ ~ 0.1 0.2
-      0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute at %around_target_uuid% run minecraft:particle
-      minecraft:dust{color:[1.0,0.5,0.0],scale:2.0} ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK
-      2 <+> minecraft:execute at %around_target_uuid% run minecraft:particle minecraft:dust{color:[1.0,0.8,0.0],scale:2.0}
-      ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute at %around_target_uuid%
-      run minecraft:particle minecraft:dust{color:[1.0,1.0,0.0],scale:2.0} ~ ~ ~ 0.1
+      minecraft:particle dust 1.0 0.0 0.0 2.0 ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK
+      2 <+> minecraft:execute at %around_target_uuid% run minecraft:particle dust
+      1.0 0.5 0.0 2.0 ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute
+      at %around_target_uuid% run minecraft:particle dust 1.0 0.8 0.0 2.0 ~ ~ ~ 0.1
       0.2 0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute at %around_target_uuid% run
-      minecraft:particle minecraft:dust{color:[0.0,1.0,0.0],scale:2.0} ~ ~ ~ 0.1 0.2
-      0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute at %around_target_uuid% run minecraft:particle
-      minecraft:dust{color:[0.0,2.0,0.0],scale:2.0} ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK
-      2 <+> minecraft:execute at %around_target_uuid% run minecraft:particle minecraft:dust{color:[0.0,1.0,3.0],scale:2.0}
-      ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute at %around_target_uuid%
-      run minecraft:particle minecraft:dust{color:[0.0,1.0,2.0],scale:2.0} ~ ~ ~ 0.1
+      minecraft:particle dust 1.0 1.0 0.0 2.0 ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK
+      2 <+> minecraft:execute at %around_target_uuid% run minecraft:particle dust
+      0.0 1.0 0.0 2.0 ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute
+      at %around_target_uuid% run minecraft:particle dust 0.0 2.0 0.0 2.0 ~ ~ ~ 0.1
       0.2 0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute at %around_target_uuid% run
-      minecraft:particle minecraft:dust{color:[0.0,1.0,1.0],scale:2.0} ~ ~ ~ 0.1 0.2
-      0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute at %around_target_uuid% run minecraft:particle
-      minecraft:dust{color:[0.0,0.0,1.0],scale:2.0} ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK
-      2 <+> minecraft:execute at %around_target_uuid% run minecraft:particle minecraft:dust{color:[1.0,0.0,1.0],scale:2.0}
-      ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute at %around_target_uuid%
-      run minecraft:particle minecraft:dust{color:[1.0,0.0,2.0],scale:2.0} ~ ~ ~ 0.1
+      minecraft:particle dust 0.0 1.0 3.0 2.0 ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK
+      2 <+> minecraft:execute at %around_target_uuid% run minecraft:particle dust
+      0.0 1.0 2.0 2.0 ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute
+      at %around_target_uuid% run minecraft:particle dust 0.0 1.0 1.0 2.0 ~ ~ ~ 0.1
       0.2 0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute at %around_target_uuid% run
-      minecraft:particle minecraft:dust{color:[2.0,0.0,2.0],scale:2.0} ~ ~ ~ 0.1 0.2
-      0.1 1 10
+      minecraft:particle dust 0.0 0.0 1.0 2.0 ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK
+      2 <+> minecraft:execute at %around_target_uuid% run minecraft:particle dust
+      1.0 0.0 1.0 2.0 ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute
+      at %around_target_uuid% run minecraft:particle dust 1.0 0.0 2.0 2.0 ~ ~ ~ 0.1
+      0.2 0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute at %around_target_uuid% run
+      minecraft:particle dust 2.0 0.0 2.0 2.0 ~ ~ ~ 0.1 0.2 0.1 1 10
     - AROUND 2 DAMAGE 12 <+> CUSTOMDASH1 %around_target_x% %around_target_y%+4 %around_target_z%
       <+> minecraft:execute at %around_target_uuid% run minecraft:particle explosion
       ~ ~ ~ .1 .1 .1 0 1 <+> minecraft:execute at %around_target_uuid% run minecraft:playsound
       minecraft:entity.zombie.attack_wooden_door ambient @a[distance=..10] <+> minecraft:execute
-      at %around_target_uuid% run minecraft:particle minecraft:dust{color:[1.0,0.0,0.0],scale:2.0}
-      ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute at %around_target_uuid%
-      run minecraft:particle minecraft:dust{color:[1.0,0.5,0.0],scale:2.0} ~ ~ ~ 0.1
+      at %around_target_uuid% run minecraft:particle dust 1.0 0.0 0.0 2.0 ~ ~ ~ 0.1
       0.2 0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute at %around_target_uuid% run
-      minecraft:particle minecraft:dust{color:[1.0,0.8,0.0],scale:2.0} ~ ~ ~ 0.1 0.2
-      0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute at %around_target_uuid% run minecraft:particle
-      minecraft:dust{color:[1.0,1.0,0.0],scale:2.0} ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK
-      2 <+> minecraft:execute at %around_target_uuid% run minecraft:particle minecraft:dust{color:[0.0,1.0,0.0],scale:2.0}
-      ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute at %around_target_uuid%
-      run minecraft:particle minecraft:dust{color:[0.0,2.0,0.0],scale:2.0} ~ ~ ~ 0.1
+      minecraft:particle dust 1.0 0.5 0.0 2.0 ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK
+      2 <+> minecraft:execute at %around_target_uuid% run minecraft:particle dust
+      1.0 0.8 0.0 2.0 ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute
+      at %around_target_uuid% run minecraft:particle dust 1.0 1.0 0.0 2.0 ~ ~ ~ 0.1
       0.2 0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute at %around_target_uuid% run
-      minecraft:particle minecraft:dust{color:[0.0,1.0,3.0],scale:2.0} ~ ~ ~ 0.1 0.2
-      0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute at %around_target_uuid% run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,2.0],scale:2.0} ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK
-      2 <+> minecraft:execute at %around_target_uuid% run minecraft:particle minecraft:dust{color:[0.0,1.0,1.0],scale:2.0}
-      ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute at %around_target_uuid%
-      run minecraft:particle minecraft:dust{color:[0.0,0.0,1.0],scale:2.0} ~ ~ ~ 0.1
+      minecraft:particle dust 0.0 1.0 0.0 2.0 ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK
+      2 <+> minecraft:execute at %around_target_uuid% run minecraft:particle dust
+      0.0 2.0 0.0 2.0 ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute
+      at %around_target_uuid% run minecraft:particle dust 0.0 1.0 3.0 2.0 ~ ~ ~ 0.1
       0.2 0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute at %around_target_uuid% run
-      minecraft:particle minecraft:dust{color:[1.0,0.0,1.0],scale:2.0} ~ ~ ~ 0.1 0.2
-      0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute at %around_target_uuid% run minecraft:particle
-      minecraft:dust{color:[1.0,0.0,2.0],scale:2.0} ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK
-      2 <+> minecraft:execute at %around_target_uuid% run minecraft:particle minecraft:dust{color:[2.0,0.0,2.0],scale:2.0}
-      ~ ~ ~ 0.1 0.2 0.1 1 10
+      minecraft:particle dust 0.0 1.0 2.0 2.0 ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK
+      2 <+> minecraft:execute at %around_target_uuid% run minecraft:particle dust
+      0.0 1.0 1.0 2.0 ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute
+      at %around_target_uuid% run minecraft:particle dust 0.0 0.0 1.0 2.0 ~ ~ ~ 0.1
+      0.2 0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute at %around_target_uuid% run
+      minecraft:particle dust 1.0 0.0 1.0 2.0 ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK
+      2 <+> minecraft:execute at %around_target_uuid% run minecraft:particle dust
+      1.0 0.0 2.0 2.0 ~ ~ ~ 0.1 0.2 0.1 1 10 <+> DELAYTICK 2 <+> minecraft:execute
+      at %around_target_uuid% run minecraft:particle dust 2.0 0.0 2.0 2.0 ~ ~ ~ 0.1
+      0.2 0.1 1 10
     - DELAYTICK 1
     - LOOP END
     - minecraft:execute in <<%world%>> run minecraft:kill @e[tag=%projectile_uuid%]
