@@ -1041,7 +1041,7 @@ activators:
     - minecraft:execute at %player% run minecraft:data merge entity %projectile_uuid%
       {CustomName:"\"7a\""}
     - 'LOOP START: 100'
-    - minecraft:execute at %projectile_uuid% run minecraft:particle 0.7 0.0 0.7 1.0
+    - minecraft:execute at %projectile_uuid% run minecraft:particle dust{color:[0.7,0.0,0.7],scale:1.0}
       ~ ~ ~ .01 .01 .01 0 5
     - DELAYTICK 1
     - LOOP END
@@ -1095,7 +1095,7 @@ activators:
     - minecraft:execute at %player% run minecraft:data merge entity %projectile_uuid%
       {CustomName:"\"6a\""}
     - 'LOOP START: 100'
-    - minecraft:execute at %projectile_uuid% run minecraft:particle 0.45 0.0 0.9 1.0
+    - minecraft:execute at %projectile_uuid% run minecraft:particle dust{color:[0.45,0.0,0.9],scale:1.0}
       ~ ~ ~ .01 .01 .01 0 5
     - DELAYTICK 1
     - LOOP END
@@ -1149,7 +1149,7 @@ activators:
     - minecraft:execute at %player% run minecraft:data merge entity %projectile_uuid%
       {CustomName:"\"5a\""}
     - 'LOOP START: 100'
-    - minecraft:execute at %projectile_uuid% run minecraft:particle 0.0 0.0 1.0 1.0
+    - minecraft:execute at %projectile_uuid% run minecraft:particle dust{color:[0.0,0.0,1.0],scale:1.0}
       ~ ~ ~ .01 .01 .01 0 5
     - DELAYTICK 1
     - LOOP END
@@ -1203,7 +1203,7 @@ activators:
     - minecraft:execute at %player% run minecraft:data merge entity %projectile_uuid%
       {CustomName:"\"4a\""}
     - 'LOOP START: 100'
-    - minecraft:execute at %projectile_uuid% run minecraft:particle 0.0 1.0 0.0 1.0
+    - minecraft:execute at %projectile_uuid% run minecraft:particle dust{color:[0.0,1.0,0.0],scale:1.0}
       ~ ~ ~ .01 .01 .01 0 5
     - DELAYTICK 1
     - LOOP END
@@ -1257,7 +1257,7 @@ activators:
     - minecraft:execute at %player% run minecraft:data merge entity %projectile_uuid%
       {CustomName:"\"3a\""}
     - 'LOOP START: 100'
-    - minecraft:execute at %projectile_uuid% run minecraft:particle 1.0 1.0 0.2 1.0
+    - minecraft:execute at %projectile_uuid% run minecraft:particle dust{color:[1.0,1.0,0.2],scale:1.0}
       ~ ~ ~ .01 .01 .01 0 5
     - DELAYTICK 1
     - LOOP END
@@ -1311,7 +1311,7 @@ activators:
     - minecraft:execute at %player% run minecraft:data merge entity %projectile_uuid%
       {CustomName:"\"2a\""}
     - 'LOOP START: 100'
-    - minecraft:execute at %projectile_uuid% run minecraft:particle 1.0 0.5 0.0 1.0
+    - minecraft:execute at %projectile_uuid% run minecraft:particle dust{color:[1.0,0.5,0.0],scale:1.0}
       ~ ~ ~ .01 .01 .01 0 5
     - DELAYTICK 1
     - LOOP END
@@ -1365,7 +1365,7 @@ activators:
     - minecraft:execute at %player% run minecraft:data merge entity %projectile_uuid%
       {CustomName:"\"1a\""}
     - 'LOOP START: 100'
-    - minecraft:execute at %projectile_uuid% run minecraft:particle 1.0 0.0 0.0 1.0
+    - minecraft:execute at %projectile_uuid% run minecraft:particle dust{color:[1.0,0.0,0.0],scale:1.0}
       ~ ~ ~ .01 .01 .01 0 5
     - DELAYTICK 1
     - LOOP END
