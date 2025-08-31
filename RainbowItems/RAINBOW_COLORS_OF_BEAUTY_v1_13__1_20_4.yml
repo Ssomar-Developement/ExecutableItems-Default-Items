@@ -203,43 +203,43 @@ activators:
     - -1
     commands:
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.0,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.0 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.5,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.5 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.8,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.8 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,1.0,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 1.0 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 1.0 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,2.0,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 2.0 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,3.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 1.0 3.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,2.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 1.0 2.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,1.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 1.0 1.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,0.0,1.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 0.0 1.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.0,1.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.0 1.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.0,2.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.0 2.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[2.0,0.0,2.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      2.0 0.0 2.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     playerConditions: {}
     worldConditions: {}
@@ -305,43 +305,43 @@ activators:
     - -1
     commands:
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.0,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.0 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.5,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.5 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.8,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.8 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,1.0,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 1.0 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 1.0 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,2.0,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 2.0 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,3.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 1.0 3.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,2.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 1.0 2.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,1.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 1.0 1.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,0.0,1.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 0.0 1.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.0,1.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.0 1.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.0,2.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.0 2.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[2.0,0.0,2.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      2.0 0.0 2.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     playerConditions: {}
     worldConditions: {}
@@ -406,43 +406,43 @@ activators:
     - -1
     commands:
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.0,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.0 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.5,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.5 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.8,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.8 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,1.0,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 1.0 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 1.0 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,2.0,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 2.0 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,3.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 1.0 3.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,2.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 1.0 2.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,1.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 1.0 1.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,0.0,1.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 0.0 1.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.0,1.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.0 1.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.0,2.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.0 2.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[2.0,0.0,2.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      2.0 0.0 2.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     playerConditions: {}
     worldConditions: {}
@@ -507,43 +507,43 @@ activators:
     - -1
     commands:
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.0,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.0 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.5,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.5 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.8,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.8 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,1.0,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 1.0 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 1.0 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,2.0,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 2.0 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,3.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 1.0 3.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,2.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 1.0 2.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,1.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 1.0 1.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,0.0,1.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 0.0 1.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.0,1.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.0 1.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.0,2.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.0 2.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[2.0,0.0,2.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      2.0 0.0 2.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     playerConditions: {}
     worldConditions: {}
@@ -608,43 +608,43 @@ activators:
     - -1
     commands:
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.0,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.0 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.5,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.5 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.8,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.8 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,1.0,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 1.0 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 1.0 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,2.0,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 2.0 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,3.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 1.0 3.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,2.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 1.0 2.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,1.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 1.0 1.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,0.0,1.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 0.0 1.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.0,1.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.0 1.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.0,2.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.0 2.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[2.0,0.0,2.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      2.0 0.0 2.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     playerConditions: {}
     worldConditions: {}
@@ -709,43 +709,43 @@ activators:
     - -1
     commands:
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.0,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.0 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.5,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.5 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.8,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.8 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,1.0,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 1.0 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 1.0 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,2.0,0.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 2.0 0.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,3.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 1.0 3.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,2.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 1.0 2.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,1.0,1.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 1.0 1.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[0.0,0.0,1.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      0.0 0.0 1.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.0,1.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.0 1.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[1.0,0.0,2.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      1.0 0.0 2.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     - minecraft:execute at @e[type=armor_stand,tag=%projectile_uuid%] run minecraft:particle
-      minecraft:dust{color:[2.0,0.0,2.0],scale:2.0} ^ ^ ^3 0.1 0.2 0.1 1 10
+      2.0 0.0 2.0 2.0 ^ ^ ^3 0.1 0.2 0.1 1 10
     - DELAYTICK 1
     playerConditions: {}
     worldConditions: {}
