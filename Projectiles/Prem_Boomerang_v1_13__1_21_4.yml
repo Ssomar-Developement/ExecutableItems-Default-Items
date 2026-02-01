@@ -88,7 +88,7 @@ activators:
       errorMessage: ''
     detailedSlots:
     - -1
-    commands:
+    playerCommands:
     - execute at %player% run playsound entity.egg.throw ambient %player%
     - LAUNCHENTITY ARMOR_STAND
     playerConditions: {}
@@ -123,7 +123,7 @@ activators:
       errorMessage: ''
     detailedSlots:
     - -1
-    commands:
+    playerCommands:
     - data merge entity %entity_uuid% {NoGravity:1b,CustomName:'{"text":"%player%"}',Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["%entity_uuid%123"],HandItems:[{id:"minecraft:bamboo",Count:1b},{}]}
     - execute at %player% run summon armor_stand ~ ~ ~ {NoGravity:1b,CustomName:'{"text":"%player%"}',Invulnerable:1b,Invisible:1b,Marker:1b,Tags:["%entity_uuid%"],ArmorItems:[{},{},{},{}]}
     - execute at @e[type=minecraft:armor_stand, tag=%entity_uuid%] as %entity_uuid%
@@ -224,8 +224,8 @@ activators:
       tag=%entity_uuid%123] run minecraft:tp @s ~ ~ ~ ~-90 ~
     - execute as @e[type=minecraft:armor_stand, tag=%entity_uuid%] at %player%
       run minecraft:tp @s ~0.25 ~ ~ ~ 0
-    - AROUND 2 CONDITIONS(%::player_name::%!=%player%) false DAMAGE 3
-    - MOB_AROUND 2 DAMAGE 5
+    - AROUND distance:2 displayMsgIfNoPlayer:false CONDITIONS(%::player_name::%!=%player%) DAMAGE 3
+    - MOB_AROUND distance:2 displayMsgIfNoEntity:false DAMAGE 5
     - DELAYTICK 1
     - LOOP END
     - execute in <<%world%>> run minecraft:kill @e[tag=%entity_uuid%]
