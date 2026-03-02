@@ -1,0 +1,412 @@
+# The name or display name
+name: '&#FF0000&l&oA&#FF0D00&l&od&#FF1A00&l&oa&#FF2800&l&op&#FF3500&l&ot&#FF4200&l&oi&#FF4F00&l&ov&#FF5D00&l&oe&#FF6A00&l&o
+  &#FF7700&l&oS&#FF8400&l&ow&#FF9200&l&oo&#FF9F00&l&or&#FFAC00&l&od'
+# The lore of the item
+lore:
+- §x§F§F§0§0§0§0§l<-------------------->
+- §f
+- §4§lStats
+- §f
+- '§4§lSpeed: %var_Bonus_Speed%'
+- '§4§lHP: %var_Bonus_HP%'
+- '§4§lLuck: %var_Bonus_Luck%'
+- §f
+- §x§F§F§0§0§0§0§l<-------------------->
+# The material
+material: NETHERITE_SWORD
+# Item Glowing effect
+glow: false
+# Disable the enchant glide effect
+disableEnchantGlide: false
+# Disable item stacking ?
+disableStack: false
+# Keep the item on death ?
+keepItemOnDeath: true
+# Can be used only by the owner
+# ⚠ Require Store item info on true
+canBeUsedOnlyByTheOwner: false
+# Cancel event if not owner
+cancelEventIfNotOwner: false
+# BlackListed Activators
+# (can be used by everyone even if
+# the only owner feature is set to true)
+onlyOwnerBlackListedActivators: []
+# Store item info ?
+# Store the item info like the owner
+storeItemInfo: false
+# Item unbreakable ?
+unbreakable: true
+# The durability feature
+# will be ignored, and the usage
+# feature will be used as durability
+isDurabilityBasedOnUsage: false
+# Cancel the event if the player has no permission
+cancelEventIfNoPermission: false
+# The whitelisted worlds features
+whitelistedWorlds: []
+# The glider
+glider: false
+# Keep the default attributes
+# Only for 1.19+
+keepDefaultAttributes: true
+# For new item LET IT FALSE PLS
+# Otherwise you can let it true
+# if you want to update your old items turn it FALSE
+# But be careful the item tags may change
+# it can impact shopkeeper or custom craft recipe
+# Only for 1.19+
+ignoreKeepDefaultAttributesFeature: false
+config_5: true
+config_update: true
+# The usage features
+# Increase or Decrease this usage with
+# UsageModification in your activators
+usageFeatures:
+  # The usage of the item
+  # -1 = Infinite
+  # Increase or Decrease this usage with
+  # UsageModification in your activators
+  usage: -1
+  # Is refreshable clean
+  isRefreshableClean: true
+  # The usage limit of the item
+  # Usage can't be increased above this value
+  usageLimit: -1
+# The drop features
+dropFeatures:
+  # Glow drop
+  glowDrop: false
+  # The color of the glow
+  glowDropColor: WHITE
+  # Display custom name above the item
+  displayNameDrop: false
+# The enchantments of the item
+enchantments: {}
+# The hiders features
+# Hiders to hide:
+# Attributes, Enchants, ...
+hiders:
+  # Hide enchantments
+  hideEnchantments: false
+  # Hide unbreakable
+  hideUnbreakable: false
+  # Hide attributes
+  hideAttributes: true
+  # Hide usage
+  hideUsage: false
+  # Hide destroys
+  hideDestroys: false
+  # Hide placed on
+  hidePlacedOn: false
+  # Hide dye
+  hideDye: false
+  # Hides armor trim details in
+  # armor. Does not hide armor
+  # trim item details
+  hideArmorTrim: false
+  # Hide additional tooltip
+  # This option can no longer hide
+  # armor trim item details in 1.21.5+
+  hideAdditionalTooltip: false
+  # Hide tool tip
+  hideToolTip: false
+# The give first join features
+giveFirstJoinFeatures:
+  # Enable the feature
+  giveFirstJoin: false
+  # The amount to give
+  giveFirstJoinAmount: 1
+  # Slot between 0 and 8 includes
+  giveFirstJoinSlot: 0
+# The restrictions features
+restrictions:
+  # The item can't be
+  # moved of the inventory
+  locked-in-inventory: false
+# The variables
+# Variables are used to store data like kills / deaths ...
+variables:
+  var3:
+    variableName: rng_applied
+    type: STRING
+    # The variable default value
+    default: 'false'
+    # Is refreshable clean
+    isRefreshableClean: true
+    # Refresh tags
+    refreshTagDoNotEdit: §他§地§人§道§自§意§意§人§意§物
+  var2:
+    variableName: Bonus_Luck
+    type: NUMBER
+    default: 0.0
+    # Is refreshable clean
+    isRefreshableClean: true
+    # Refresh tags
+    refreshTagDoNotEdit: §道§生§物§他§人§心§道§地§物
+  var1:
+    variableName: Bonus_HP
+    type: NUMBER
+    default: 0.0
+    # Is refreshable clean
+    isRefreshableClean: true
+    # Refresh tags
+    refreshTagDoNotEdit: §地§自§道§自§心§自§人§自§人§自
+  var0:
+    variableName: Bonus_Speed
+    type: NUMBER
+    default: 0.0
+    # Is refreshable clean
+    isRefreshableClean: true
+    # Refresh tags
+    refreshTagDoNotEdit: §天§意§道§人§他§物§生§地§道
+# Display conditions in the lore
+displayConditions:
+  # Add player conditions to determine
+  # when the 
+  playerConditions: {}
+  #
+  worldConditions: {}
+  #
+  itemConditions: {}
+  # The placeholders conditions
+  placeholdersConditions: {}
+  # Enable or disable this feature
+  enableFeature: false
+# Food features
+foodFeatures:
+  # Is the food meat?
+  isMeat: false
+  # The nutrition of the food
+  nutrition: 1
+  # The saturation of the food
+  saturation: 1
+  # Can the player always eat this food?
+  canAlwaysEat: false
+# Consumable Features
+consumableFeatures:
+  # Enable this features
+  enable: false
+  # The animation
+  animation: EAT
+  # Has consume particles
+  hasConsumeParticles: false
+  # The consume seconds
+  consumeSeconds: 3
+# The weapon features
+weaponFeatures:
+  # Enable this features
+  enable: true
+  # The amount of time the target's
+  # shield will not work in seconds
+  disableBlockingTime: 0
+  # The amount of durability reduced per attack
+  damagePerAttack: 1
+# The block attacks features
+blockAttacksFeatures:
+  # Enable this features
+  enable: false
+  # The block delay in seconds
+  blockDelay: 0
+  disableCooldownScale: 1.0
+  # The damage reductions
+  damageReductions: {}
+# The rarity of the item
+itemRarity:
+  # Enable or disable the rarity feature
+  enableRarity: false
+  # The rarity of the item
+  rarity: COMMON
+# The repairable features
+repairableFeatures:
+  # Enable this features
+  enable: false
+  # The repair cost
+  repairCost: 2
+# The equippable features
+equippableFeatures:
+  # Enable this features
+  enable: false
+  # The slot
+  slot: BODY
+  # Enable the sound
+  enableSound: false
+  # The sound
+  sound: ITEM.ARMOR.EQUIP_DIAMOND
+  # The item will take damage when the player is hurt
+  damageableOnHurt: false
+  # The item can be dispensed
+  dispensable: true
+  # The item can be swapped
+  swappable: true
+  # The allowed entities
+  allowedEntities:
+  - PLAYER
+# The attributes
+activators:
+  activator2:
+    # The name or display name
+    name: StatRNG
+    option: EI_ENTER_IN_THE_PLAYER_INVENTORY
+    # Usage modification
+    usageModification: 0
+    # Cancel the vanilla event
+    cancelEvent: false
+    # If another plugin cancels the event that
+    # triggers the activator and you enabled this feature
+    # the activator will not be activated
+    noActivatorRunIfTheEventIsCancelled: false
+    # Automatically update the item
+    autoUpdateItem: true
+    # Update the attributes of the item
+    updateAttributes: true
+    # The cooldown
+    cooldownFeatures:
+      # The cooldown
+      cooldown: 0
+      # The placeholders conditions to pause the cooldown
+      pausePlaceholdersConditions: {}
+    # The global cooldown
+    # (For ALL players and entities)
+    globalCooldownFeatures:
+      # The cooldown
+      cooldown: 0
+    # To add cooldown
+    # to another EI
+    otherEICooldowns: {}
+    # The required items
+    requiredItems: {}
+    # The required executable items
+    requiredExecutableItems: {}
+    # The required Magics
+    # (from EcoSkills)
+    requiredMagics: {}
+    # The slots where the
+    # activator will work
+    detailedSlots: []
+    playerCommands:
+    - ei run-custom-trigger trigger:activator3 player:%player% slot:%slot% %rand:10|30%
+      %rand:50|200% %rand:5|50%
+    # Add player conditions to determine
+    # when the 
+    playerConditions: {}
+    #
+    worldConditions: {}
+    #
+    itemConditions: {}
+    #
+    customConditions: {}
+    # The placeholders conditions
+    placeholdersConditions:
+      plchCdt0:
+        type: PLAYER_STRING
+        comparator: EQUALS
+        # The first part of the condition
+        part1: '%var_rng_applied%'
+        # The second part of the condition
+        part2: 'false'
+        # Cancel the event if the block is not valid?
+        cancelEventIfNotValid: false
+        # Message if the condition is not valid?
+        messageIfNotValid: ''
+        # The message to display if
+        # the condition is not valid for the target
+        messageIfNotValidForTarget: ''
+        # Stop checking other conditions
+        # if the condition is not valid
+        stopCheckingOtherConditionsIfNotValid: true
+    # Part to modifiy your variables
+    variablesModification: {}
+  activator3:
+    # The name or display name
+    name: '&eActivator'
+    option: CUSTOM_TRIGGER
+    scheduleFeatures:
+      startDate: '1700-01-01 00:00:00'
+      endDate: '3000-01-01 00:00:00'
+      # When the feature is activated
+      when: []
+    # Usage modification
+    usageModification: 0
+    # Cancel the vanilla event
+    cancelEvent: false
+    # If another plugin cancels the event that
+    # triggers the activator and you enabled this feature
+    # the activator will not be activated
+    noActivatorRunIfTheEventIsCancelled: false
+    # Automatically update the item
+    autoUpdateItem: false
+    # The cooldown
+    cooldownFeatures:
+      # The cooldown
+      cooldown: 0
+      # The placeholders conditions to pause the cooldown
+      pausePlaceholdersConditions: {}
+    # The global cooldown
+    # (For ALL players and entities)
+    globalCooldownFeatures:
+      # The cooldown
+      cooldown: 0
+    # To add cooldown
+    # to another EI
+    otherEICooldowns: {}
+    # The required items
+    requiredItems: {}
+    # The required executable items
+    requiredExecutableItems: {}
+    # The required Magics
+    # (from EcoSkills)
+    requiredMagics: {}
+    # The slots where the
+    # activator will work
+    detailedSlots: []
+    playerCommands:
+    - ADD_ITEM_ATTRIBUTE %slot% LUCK %arg0% HAND OVERRIDE
+    - ADD_ITEM_ATTRIBUTE %slot% MAX_HEALTH %arg1% HAND OVERRIDE
+    - ADD_ITEM_ATTRIBUTE %slot% ATTACK_SPEED %arg2% HAND OVERRIDE
+    # Add player conditions to determine
+    # when the 
+    playerConditions: {}
+    #
+    worldConditions: {}
+    #
+    itemConditions: {}
+    #
+    customConditions: {}
+    # The placeholders conditions
+    placeholdersConditions:
+      plchCdt0:
+        type: PLAYER_STRING
+        comparator: EQUALS
+        # The first part of the condition
+        part1: '%var_rng_applied%'
+        # The second part of the condition
+        part2: 'false'
+        # Cancel the event if the block is not valid?
+        cancelEventIfNotValid: false
+        # Message if the condition is not valid?
+        messageIfNotValid: ''
+        # The message to display if
+        # the condition is not valid for the target
+        messageIfNotValidForTarget: ''
+        # Stop checking other conditions
+        # if the condition is not valid
+        stopCheckingOtherConditionsIfNotValid: true
+    # Part to modifiy your variables
+    variablesModification:
+      varUpdt3:
+        variableName: rng_applied
+        type: SET
+        # The string update
+        modification: 'true'
+      varUpdt2:
+        variableName: Bonus_Luck
+        type: SET
+        modification: '%arg0%'
+      varUpdt1:
+        variableName: Bonus_HP
+        type: SET
+        modification: '%arg1%'
+      varUpdt0:
+        variableName: Bonus_Speed
+        type: SET
+        modification: '%arg2%'
