@@ -120,6 +120,93 @@ restrictions:
 # The variables
 # Variables are used to store data like kills / deaths ...
 variables: {}
+# Display conditions in the lore
+displayConditions:
+  # Add player conditions to determine
+  # when the 
+  playerConditions: {}
+  #
+  worldConditions: {}
+  #
+  itemConditions: {}
+  # The placeholders conditions
+  placeholdersConditions: {}
+  # Enable or disable this feature
+  enableFeature: false
+# Food features
+foodFeatures:
+  # Is the food meat?
+  isMeat: false
+  # The nutrition of the food
+  nutrition: 1
+  # The saturation of the food
+  saturation: 1
+  # Can the player always eat this food?
+  canAlwaysEat: false
+# Consumable Features
+consumableFeatures:
+  # Enable this features
+  enable: false
+  # The animation
+  animation: EAT
+  # Has consume particles
+  hasConsumeParticles: false
+  # The consume seconds
+  consumeSeconds: 3
+# The weapon features
+weaponFeatures:
+  # Enable this features
+  enable: false
+  # The amount of time the target's
+  # shield will not work in seconds
+  disableBlockingTime: 0
+  # The amount of durability reduced per attack
+  damagePerAttack: 5
+# The block attacks features
+blockAttacksFeatures:
+  # Enable this features
+  enable: false
+  # The block delay in seconds
+  blockDelay: 0
+  disableCooldownScale: 1.0
+  # The damage reductions
+  damageReductions: {}
+# The repairable features
+repairableFeatures:
+  # Enable this features
+  enable: false
+  # The repair cost
+  repairCost: 2
+  # Items that can repair this item in an anvil
+  # (Paper 1.21.4+ only)
+  repairableItems: []
+# The rarity of the item
+itemRarity:
+  # Enable or disable the rarity feature
+  enableRarity: false
+  # The rarity of the item
+  rarity: COMMON
+# The equippable features
+equippableFeatures:
+  # Enable this features
+  enable: false
+  # The slot
+  slot: BODY
+  # Enable the sound
+  enableSound: false
+  # The sound
+  sound: ITEM.ARMOR.EQUIP_DIAMOND
+  # The item will take damage when the player is hurt
+  damageableOnHurt: false
+  # The item can be dispensed
+  dispensable: true
+  # The item can be swapped
+  swappable: true
+  # The allowed entities
+  allowedEntities:
+  - PLAYER
+# The attributes
+attributes: {}
 # The activators / triggers
 activators:
   activator0:
@@ -176,14 +263,13 @@ activators:
     placeholdersConditions: {}
     detailedBlocks:
       # Blocks
-      blocks:
-      - AIR
+      blocks: []
       # Cancel the event if the block is not valid?
       cancelEventIfNotValid: true
       # Message if the condition is not valid?
       messageIfNotValid: '&cYou can''t do that!'
     blockCommands:
-    - SETBLOCK WATER
+    - PLACELIQUID type:WATER
     #
     blockConditions:
       # The required items
@@ -192,87 +278,3 @@ activators:
       requiredExecutableItems: {}
     # Part to modifiy your variables
     variablesModification: {}
-# Display conditions in the lore
-displayConditions:
-  # Add player conditions to determine
-  # when the 
-  playerConditions: {}
-  #
-  worldConditions: {}
-  #
-  itemConditions: {}
-  # The placeholders conditions
-  placeholdersConditions: {}
-  # Enable or disable this feature
-  enableFeature: false
-# Food features
-foodFeatures:
-  # Is the food meat?
-  isMeat: false
-  # The nutrition of the food
-  nutrition: 1
-  # The saturation of the food
-  saturation: 1
-  # Can the player always eat this food?
-  canAlwaysEat: false
-# Consumable Features
-consumableFeatures:
-  # Enable this features
-  enable: false
-  # The animation
-  animation: EAT
-  # Has consume particles
-  hasConsumeParticles: false
-  # The consume seconds
-  consumeSeconds: 3
-# The weapon features
-weaponFeatures:
-  # Enable this features
-  enable: false
-  # The amount of time the target's
-  # shield will not work in seconds
-  disableBlockingTime: 0
-  # The amount of durability reduced per attack
-  damagePerAttack: 5
-# The block attacks features
-blockAttacksFeatures:
-  # Enable this features
-  enable: false
-  # The block delay in seconds
-  blockDelay: 0
-  disableCooldownScale: 1.0
-  # The damage reductions
-  damageReductions: {}
-# The rarity of the item
-itemRarity:
-  # Enable or disable the rarity feature
-  enableRarity: false
-  # The rarity of the item
-  rarity: COMMON
-# The repairable features
-repairableFeatures:
-  # Enable this features
-  enable: false
-  # The repair cost
-  repairCost: 2
-# The equippable features
-equippableFeatures:
-  # Enable this features
-  enable: false
-  # The slot
-  slot: BODY
-  # Enable the sound
-  enableSound: false
-  # The sound
-  sound: ITEM.ARMOR.EQUIP_DIAMOND
-  # The item will take damage when the player is hurt
-  damageableOnHurt: false
-  # The item can be dispensed
-  dispensable: true
-  # The item can be swapped
-  swappable: true
-  # The allowed entities
-  allowedEntities:
-  - PLAYER
-# The attributes
-attributes: {}

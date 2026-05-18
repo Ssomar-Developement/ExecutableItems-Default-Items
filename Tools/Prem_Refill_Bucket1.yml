@@ -293,14 +293,13 @@ activators:
         stopCheckingOtherConditionsIfNotValid: true
     detailedBlocks:
       # Blocks
-      blocks:
-      - AIR
+      blocks: []
       # Cancel the event if the block is not valid?
       cancelEventIfNotValid: true
       # Message if the condition is not valid?
       messageIfNotValid: '&cYou can''t do that!'
     blockCommands:
-    - SETBLOCK WATER
+    - PLACELIQUID type:WATER
     #
     blockConditions:
       # The required items
